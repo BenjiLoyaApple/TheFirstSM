@@ -5,17 +5,20 @@
 //  Created by Benji Loya on 12/12/2022.
 //
 
+
+
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("logo_status") var logStatus: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+//        MARK: Redirecting User Based on Log Status
+        if logStatus {
+            Text("Main View")
+        }else{
+            LoginView()
         }
-        .padding()
+        
     }
 }
 
