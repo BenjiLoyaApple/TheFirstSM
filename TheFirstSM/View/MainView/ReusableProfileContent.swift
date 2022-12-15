@@ -45,6 +45,7 @@ struct ReusableProfileContent: View {
                     }
                     .hAlign(.leading)
                 }
+                .padding(.horizontal)
                 
                 Text("Post's")
                     .font(.title2)
@@ -52,6 +53,7 @@ struct ReusableProfileContent: View {
                     .foregroundColor(.black)
                     .hAlign(.leading)
                     .padding(.vertical, 15)
+                    .padding(.horizontal)
             }
         }
     }

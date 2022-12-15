@@ -10,7 +10,7 @@ import Firebase
 import FirebaseStorage
 import FirebaseFirestore
 
-struct ProfileView: View {
+struct EditProfileView: View {
 //    MARK: My Profile Data
         @State private var myProfile: User?
         @AppStorage("log_status") var logStatus: Bool = false
@@ -91,7 +91,7 @@ struct ProfileView: View {
             do{
                 guard let userUID = Auth.auth().currentUser?.uid else{return}
     //            Step 1: First Deleting Profile Image From Storage
-                let reference = Storage.storage().reference().child("Profile_Image").child(userUID)
+                let reference = Storage.storage().reference().child("Profile_Images").child(userUID)
                 try await reference.delete()
     //            Step 2: Deleting Firestore User Document
                 try await Firestore.firestore().collection("Users").document(userUID).delete()
