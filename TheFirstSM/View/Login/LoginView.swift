@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import PhotosUI
 import Firebase
 import FirebaseFirestore
 import FirebaseStorage
@@ -25,7 +24,7 @@ struct LoginView: View {
     @State var isLoading: Bool = false
     
     //    MARK: User Defaults
-    @AppStorage("logo_status") var logStatus: Bool = false
+    @AppStorage("log_status") var logStatus: Bool = false
     @AppStorage("user_profile_url") var profileURL: URL?
     @AppStorage("user_name") var userNameStored: String = ""
     @AppStorage("user_UID") var userUID: String = ""
@@ -149,8 +148,6 @@ struct LoginView: View {
 }
 
 
-
-
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
         LoginView()
@@ -158,50 +155,4 @@ struct LoginView_Previews: PreviewProvider {
     }
 }
 
-//   MARK: View Extension For UI Building
 
-extension View {
-    //    Closing all Active Keyboards
-    func closeKeyboard(){
-        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-    }
-    
-    
-    //     MARK: Disabling with Opacity
-    func disableWithOpacity(_ condition: Bool)->some View{
-        self
-            .disabled(condition)
-            .opacity(condition ? 0.6 : 1)
-    }
-    
-    func hAlign(_ aligment: Alignment)->some View {
-        self
-            .frame(maxWidth: .infinity, alignment: aligment)
-    }
-    func vAlign(_ aligment: Alignment)->some View {
-        self
-            .frame(maxHeight: .infinity, alignment: aligment)
-    }
-    
-    //    MARK: Custom Border View With Padding
-    func border(_ width: CGFloat,_ color: Color)->some View {
-        self
-            .padding(.horizontal, 15)
-            .padding(.vertical, 10)
-            .background {
-                RoundedRectangle(cornerRadius: 5, style: .continuous)
-                    .stroke(color, lineWidth: width)
-            }
-    }
-    
-    //    MARK: Custom Fill View With Padding
-    func fillView(_ color: Color)->some View {
-        self
-            .padding(.horizontal, 15)
-            .padding(.vertical, 10)
-            .background {
-                RoundedRectangle(cornerRadius: 5, style: .continuous)
-                    .fill(color)
-            }
-    }
-}

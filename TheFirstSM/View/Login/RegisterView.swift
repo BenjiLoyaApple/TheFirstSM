@@ -9,6 +9,8 @@ import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
 import FirebaseStorage
+import PhotosUI
+
 
 //   MARK: Register View
 struct RegisterView: View {
@@ -30,7 +32,7 @@ struct RegisterView: View {
     @State var isLoading: Bool = false
     
     //    MARK: User Defaults
-    @AppStorage("logo_status") var logStatus: Bool = false
+    @AppStorage("log_status") var logStatus: Bool = false
     @AppStorage("user_profile_url") var profileURL: URL?
     @AppStorage("user_name") var userNameStored: String = ""
     @AppStorage("user_UID") var userUID: String = ""
