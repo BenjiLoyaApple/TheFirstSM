@@ -19,6 +19,7 @@
 		E47BFFB52948515C0056BED0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E47BFFB42948515C0056BED0 /* FirebaseStorage */; };
 		E47BFFB7294861990056BED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFFB6294861990056BED0 /* User.swift */; };
 		E47BFFB9294880320056BED0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFFB8294880320056BED0 /* LoadingView.swift */; };
+		E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C4294ADEC9008379DD /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		E47BFFAD294787C70056BED0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E47BFFB6294861990056BED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E47BFFB8294880320056BED0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E4BB57C4294ADEC9008379DD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,9 @@
 		E47BFFA6294775DE0056BED0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E47BFFAD294787C70056BED0 /* LoginView.swift */,
+				E4BB57C6294ADF88008379DD /* Helpers */,
+				E4BB57C3294ADE82008379DD /* MainView */,
+				E4BB57C2294ADE78008379DD /* Login */,
 				E47BFFB8294880320056BED0 /* LoadingView.swift */,
 			);
 			path = View;
@@ -117,6 +121,29 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BB57C2294ADE78008379DD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E47BFFAD294787C70056BED0 /* LoginView.swift */,
+				E4BB57C4294ADEC9008379DD /* RegisterView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E4BB57C3294ADE82008379DD /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		E4BB57C6294ADF88008379DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +229,7 @@
 				E47BFFB7294861990056BED0 /* User.swift in Sources */,
 				E47BFFAE294787C70056BED0 /* LoginView.swift in Sources */,
 				E47BFF9929476FBA0056BED0 /* ContentView.swift in Sources */,
+				E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */,
 				E47BFFB9294880320056BED0 /* LoadingView.swift in Sources */,
 				E47BFF9729476FBA0056BED0 /* TheFirstSMApp.swift in Sources */,
 			);
