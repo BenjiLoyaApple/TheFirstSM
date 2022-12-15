@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E43BB96E294B66CE009476AA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BB96D294B66CE009476AA /* ProfileView.swift */; };
+		E43BB970294B80C7009476AA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43BB96F294B80C7009476AA /* SwiftUIView.swift */; };
 		E47BFF9729476FBA0056BED0 /* TheFirstSMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFF9629476FBA0056BED0 /* TheFirstSMApp.swift */; };
 		E47BFF9929476FBA0056BED0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFF9829476FBA0056BED0 /* ContentView.swift */; };
 		E47BFF9B29476FBB0056BED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47BFF9A29476FBB0056BED0 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		E43BB96D294B66CE009476AA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E43BB96F294B80C7009476AA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E47BFF9329476FBA0056BED0 /* TheFirstSM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFirstSM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47BFF9629476FBA0056BED0 /* TheFirstSMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFirstSMApp.swift; sourceTree = "<group>"; };
 		E47BFF9829476FBA0056BED0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				E4BB57C3294ADE82008379DD /* MainView */,
 				E4BB57C2294ADE78008379DD /* Login */,
 				E47BFFB8294880320056BED0 /* LoadingView.swift */,
+				E43BB96F294B80C7009476AA /* SwiftUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				E47BFFB7294861990056BED0 /* User.swift in Sources */,
 				E4BB57CE294B0E34008379DD /* ReusableProfileContent.swift in Sources */,
+				E43BB970294B80C7009476AA /* SwiftUIView.swift in Sources */,
 				E43BB96E294B66CE009476AA /* ProfileView.swift in Sources */,
 				E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */,
 				E47BFFAE294787C70056BED0 /* LoginView.swift in Sources */,
