@@ -10,7 +10,7 @@ import Firebase
 import FirebaseStorage
 import FirebaseFirestore
 
-struct ProfileView: View {
+struct EditProfileView: View {
 //    MARK: My Profile Data
         @State private var myProfile: User?
         @AppStorage("log_status") var logStatus: Bool = false
@@ -116,7 +116,7 @@ struct ProfileView: View {
 
 
 
-struct ProfileView_Previews: PreviewProvider {
+struct EditProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
