@@ -20,6 +20,9 @@
 		E47BFFB52948515C0056BED0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E47BFFB42948515C0056BED0 /* FirebaseStorage */; };
 		E47BFFB7294861990056BED0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFFB6294861990056BED0 /* User.swift */; };
 		E47BFFB9294880320056BED0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47BFFB8294880320056BED0 /* LoadingView.swift */; };
+		E4AD1BC029597F9B00F4DEF3 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */; };
+		E4AD1BC22959800900F4DEF3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BC12959800900F4DEF3 /* Post.swift */; };
+		E4AD1BC62959DCC900F4DEF3 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BC52959DCC900F4DEF3 /* PostView.swift */; };
 		E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C4294ADEC9008379DD /* RegisterView.swift */; };
 		E4BB57C8294ADFFF008379DD /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C7294ADFFF008379DD /* View+Extensions.swift */; };
 		E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C9294AE0D7008379DD /* MainView.swift */; };
@@ -38,6 +41,9 @@
 		E47BFFAD294787C70056BED0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E47BFFB6294861990056BED0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E47BFFB8294880320056BED0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		E4AD1BC12959800900F4DEF3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E4AD1BC52959DCC900F4DEF3 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		E4BB57C4294ADEC9008379DD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E4BB57C7294ADFFF008379DD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		E4BB57C9294AE0D7008379DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -103,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E47BFFB6294861990056BED0 /* User.swift */,
+				E4AD1BC12959800900F4DEF3 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +147,8 @@
 				E4BB57C9294AE0D7008379DD /* MainView.swift */,
 				E43BB96D294B66CE009476AA /* ProfileView.swift */,
 				E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */,
+				E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */,
+				E4AD1BC52959DCC900F4DEF3 /* PostView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -237,12 +246,15 @@
 				E47BFFB7294861990056BED0 /* User.swift in Sources */,
 				E4BB57CE294B0E34008379DD /* ReusableProfileContent.swift in Sources */,
 				E43BB96E294B66CE009476AA /* ProfileView.swift in Sources */,
+				E4AD1BC22959800900F4DEF3 /* Post.swift in Sources */,
 				E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */,
 				E47BFFAE294787C70056BED0 /* LoginView.swift in Sources */,
 				E47BFF9929476FBA0056BED0 /* ContentView.swift in Sources */,
 				E4BB57C8294ADFFF008379DD /* View+Extensions.swift in Sources */,
+				E4AD1BC029597F9B00F4DEF3 /* CreateNewPost.swift in Sources */,
 				E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */,
 				E47BFFB9294880320056BED0 /* LoadingView.swift in Sources */,
+				E4AD1BC62959DCC900F4DEF3 /* PostView.swift in Sources */,
 				E47BFF9729476FBA0056BED0 /* TheFirstSMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
