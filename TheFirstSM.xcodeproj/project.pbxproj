@@ -23,6 +23,8 @@
 		E4AD1BC029597F9B00F4DEF3 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */; };
 		E4AD1BC22959800900F4DEF3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BC12959800900F4DEF3 /* Post.swift */; };
 		E4AD1BC62959DCC900F4DEF3 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BC52959DCC900F4DEF3 /* PostView.swift */; };
+		E4AD1BE5295A9CA200F4DEF3 /* ReusablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BE4295A9CA200F4DEF3 /* ReusablePostsView.swift */; };
+		E4AD1BE7295AA65600F4DEF3 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AD1BE6295AA65600F4DEF3 /* PostCardView.swift */; };
 		E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C4294ADEC9008379DD /* RegisterView.swift */; };
 		E4BB57C8294ADFFF008379DD /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C7294ADFFF008379DD /* View+Extensions.swift */; };
 		E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C9294AE0D7008379DD /* MainView.swift */; };
@@ -44,6 +46,8 @@
 		E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
 		E4AD1BC12959800900F4DEF3 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E4AD1BC52959DCC900F4DEF3 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		E4AD1BE4295A9CA200F4DEF3 /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
+		E4AD1BE6295AA65600F4DEF3 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		E4BB57C4294ADEC9008379DD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E4BB57C7294ADFFF008379DD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		E4BB57C9294AE0D7008379DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */,
 				E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */,
 				E4AD1BC52959DCC900F4DEF3 /* PostView.swift */,
+				E4AD1BE4295A9CA200F4DEF3 /* ReusablePostsView.swift */,
+				E4AD1BE6295AA65600F4DEF3 /* PostCardView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -250,10 +256,12 @@
 				E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */,
 				E47BFFAE294787C70056BED0 /* LoginView.swift in Sources */,
 				E47BFF9929476FBA0056BED0 /* ContentView.swift in Sources */,
+				E4AD1BE5295A9CA200F4DEF3 /* ReusablePostsView.swift in Sources */,
 				E4BB57C8294ADFFF008379DD /* View+Extensions.swift in Sources */,
 				E4AD1BC029597F9B00F4DEF3 /* CreateNewPost.swift in Sources */,
 				E4BB57C5294ADEC9008379DD /* RegisterView.swift in Sources */,
 				E47BFFB9294880320056BED0 /* LoadingView.swift in Sources */,
+				E4AD1BE7295AA65600F4DEF3 /* PostCardView.swift in Sources */,
 				E4AD1BC62959DCC900F4DEF3 /* PostView.swift in Sources */,
 				E47BFF9729476FBA0056BED0 /* TheFirstSMApp.swift in Sources */,
 			);
