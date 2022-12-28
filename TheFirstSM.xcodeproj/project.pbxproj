@@ -30,6 +30,7 @@
 		E4BB57CA294AE0D7008379DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57C9294AE0D7008379DD /* MainView.swift */; };
 		E4BB57CE294B0E34008379DD /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */; };
 		E4BB57D1294B10E1008379DD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E4BB57D0294B10E1008379DD /* SDWebImageSwiftUI */; };
+		E4D63A6F295BEAC700C520F1 /* SearchUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D63A6E295BEAC700C520F1 /* SearchUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		E4BB57C7294ADFFF008379DD /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		E4BB57C9294AE0D7008379DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
+		E4D63A6E295BEAC700C520F1 /* SearchUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,12 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				E4BB57C9294AE0D7008379DD /* MainView.swift */,
-				E43BB96D294B66CE009476AA /* ProfileView.swift */,
-				E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */,
 				E4AD1BBF29597F9B00F4DEF3 /* CreateNewPost.swift */,
-				E4AD1BC52959DCC900F4DEF3 /* PostView.swift */,
-				E4AD1BE4295A9CA200F4DEF3 /* ReusablePostsView.swift */,
-				E4AD1BE6295AA65600F4DEF3 /* PostCardView.swift */,
+				E4D63A6D295BE52300C520F1 /* ProfileView */,
+				E4D63A6C295BE4DA00C520F1 /* PostView */,
+				E4D63A6E295BEAC700C520F1 /* SearchUserView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -165,6 +165,25 @@
 				E4BB57C7294ADFFF008379DD /* View+Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4D63A6C295BE4DA00C520F1 /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				E4AD1BC52959DCC900F4DEF3 /* PostView.swift */,
+				E4AD1BE4295A9CA200F4DEF3 /* ReusablePostsView.swift */,
+				E4AD1BE6295AA65600F4DEF3 /* PostCardView.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		E4D63A6D295BE52300C520F1 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				E43BB96D294B66CE009476AA /* ProfileView.swift */,
+				E4BB57CD294B0E34008379DD /* ReusableProfileContent.swift */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 				E4AD1BE7295AA65600F4DEF3 /* PostCardView.swift in Sources */,
 				E4AD1BC62959DCC900F4DEF3 /* PostView.swift in Sources */,
 				E47BFF9729476FBA0056BED0 /* TheFirstSMApp.swift in Sources */,
+				E4D63A6F295BEAC700C520F1 /* SearchUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
